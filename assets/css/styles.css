@@ -4,6 +4,10 @@
 } */
 
 body {
-    background-color: rgb(196, 152, 152);
+    background-color: rgb(246, 241, 241);
     background-image: url("assets/images/01-02-02_background-img.jpg");
+}
+
+h2 {
+    color:orangered
 }
