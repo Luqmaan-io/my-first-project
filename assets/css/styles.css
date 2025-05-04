@@ -1,17 +1,32 @@
-/* body {
-    background-color: rgb(196, 152, 152);
-    background-image: url("../images/01-02-02_background-img.jpg");
-} */
+/* color palette */
+/*
+1. ██████████ Deep Crimson (#8B0000)  
+2. ██████████ Jet Black (#1A1A1A)  
+3. ██████████ Champagne Gold (#D4AF37)  
+4. ██████████ Platinum Silver (#E5E4E2)  
+5. ██████████ White Smoke (#F5F5F5)  
+*/
 
+/* global styles */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {
-    background-color: rgb(246, 241, 241);
-    background-image: url("assets/images/01-02-02_background-img.jpg");
+    background-color: #E5E4E2;
+    font-family: 'Lato', sans-serif;
+    color: #1A1A1A;
 }
 
-h2 {
-    color:rgb(0, 255, 51)
+/* navbar */
+.custom-navbar {
+    background-color: #E5E4E2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-p {
-    font-weight: bold;
+
+#saira {
+    font-family: "great vibes", cursive;
+    font-size: 200%;
+    color: #D4AF37;
+    margin-top: 5px;
 }
