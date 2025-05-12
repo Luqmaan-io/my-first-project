@@ -32,16 +32,37 @@ body {
     margin-top: 5px;
 }
 
+/* main content area */
 main {
     flex: 1 0 auto;
     margin-top: 79px;
+    background-color: #fdaac5;
+}
+
+/* Hero image */
+
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url("../images/hero-cake.webp") no-repeat center center/cover;
 }
 
 /* footer */
 #social-media {
     display: flex;
-    padding: 20px;
+    padding: 20px 0;
     list-style: none;
     justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
 }
 
+#social-media i {
+    font-size: 30px;
+    color: #1A1A1A;
+    transition: color 0.3s ease;
+}
+#social-media i:hover {
+    color: #D4AF37;
+}
