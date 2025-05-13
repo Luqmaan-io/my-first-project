@@ -35,29 +35,52 @@ body {
 /* main content area */
 main {
     flex: 1 0 auto;
-    background-color: #fdaac5;
+    background-color: #FAF9F6;
     margin-top: 79px;
 }
 
 /* Hero */
 
-.hero {
-    width: 100%;
-}
 
-.hero h1 {
-    font-family: "great vibes", cursive;
-    font-size: 46px;
+.hero  {
     min-height: calc(100vh - 79px);
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 20px;
     position: relative;
     justify-content: center;
     
+}
 
+.hero-text {
+    max-width: 90%;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-family: "great vibes", cursive;
+    color: #D4AF37;
+    margin-bottom: 0;
+}
 
+.hero h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* card */
+.custom-bg {
+    background-color: #E5E4E2;
+}
+
+.border-gold {
+    border: 1.5px solid #D4AF37;
+}
+
+.gold-divider {
+    border: none;
+    border-top: 1px solid #D4AF37;
+    width: 90%;
+    margin: 16px auto;
 }
 
 /* footer */
@@ -78,4 +101,36 @@ main {
 }
 #social-media i:hover {
     color: #D4AF37;
+}
+
+
+/* media queries */
+
+/* Tablet size */
+@media (min-width: 426px) and (max-width: 768px) {
+    .card {
+        max-width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        }
+}
+
+/* Laptop size */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        max-width: 65%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+}
+
+/* desktop size */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .card {
+        max-width: 60%;
+        margin: 20px auto;
+        padding: 30px;
+    }
 }
