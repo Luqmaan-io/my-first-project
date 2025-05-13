@@ -84,8 +84,16 @@ main {
     margin: 16px auto;
 }
 
+.card-title-main {
+    font-weight: bold;
+    font-size: 2rem;
+}
 
-
+.card-img-bottom {
+    max-height: 500px;
+    width: auto;
+    object-fit: cover;
+}
 /* footer */
 #social-media {
     display: flex;
