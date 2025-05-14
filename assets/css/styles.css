@@ -116,13 +116,15 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0 1rem; 
+    padding: 0 2rem; 
     width: 100%;
   }
  
 .container-cards .card {
     width: 100%;
-    max-width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
 
 /* footer */
@@ -151,8 +153,8 @@ main {
 /* Tablet size */
 @media (min-width: 426px) and (max-width: 768px) {
     .container-cards {
-       padding-left: 1rem;
-         padding-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         }
 }
 
