@@ -24,11 +24,21 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-nav .nav-link {
+    color: #1A1A1A;
+    transition: color 0.3s ease;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B8860B;
+    font-weight: bold;
+  }
 
 #saira {
     font-family: "great vibes", cursive;
     font-size: 200%;
-    color: #D4AF37;
+    color: #B8860B;
     margin-top: 5px;
 }
 
@@ -43,7 +53,7 @@ main {
 
 
 .hero  {
-    min-height: calc(100vh - 79px);
+    min-height: calc(85vh - 79px);
     display: flex;
     text-align: center;
     align-items: center;
@@ -58,7 +68,7 @@ main {
 .hero h1 {
     font-size: 4rem;
     font-family: "great vibes", cursive;
-    color: #D4AF37;
+    color: #B8860B;
     margin-bottom: 0;
 }
 
@@ -81,12 +91,12 @@ main {
 }
 
 .border-gold {
-    border: 1.5px solid #D4AF37;
+    border: 1.5px solid #B8860B;
 }
 
 .gold-divider {
     border: none;
-    border-top: 1px solid #D4AF37;
+    border-top: 1px solid #B8860B;
     width: 90%;
     margin: 16px auto;
 }
@@ -132,9 +142,9 @@ main {
 
 /* button */
 .btn-gold {
-    background-color: #D4AF37;
+    background-color: #B8860B;
     color: #000000;
-    border: 1.5px solid #D4AF37;
+    border: 1.5px solid #B8860B;
     border-radius: 6px;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
@@ -142,7 +152,7 @@ main {
   
   .btn-gold:hover {
     background-color: #000000;
-    color: #D4AF37;
+    color: #B8860B;
     border-color: #000000;
   }
 
@@ -163,7 +173,7 @@ main {
     transition: color 0.3s ease;
 }
 #social-media i:hover {
-    color: #D4AF37;
+    color: #B8860B;
 }
 
 
