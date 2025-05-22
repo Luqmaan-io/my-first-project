@@ -77,6 +77,20 @@ main {
     margin: 0;
 }
 
+/* Occasions page */
+
+.occasions  {
+    min-height: calc(85vh - 79px);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
 /* card */
 .custom-bg {
     background-color: #E5E4E2;
