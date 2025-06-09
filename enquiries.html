@@ -47,48 +47,57 @@
           <h3>Get in Touch for Custom Orders</h3>
         </div>
       </section>
-<!-- cards -->
+<!--  Bootstrap cards -->
+      <div class="container my-5">
+        <div class="row align-items-center justify-content-between">
 
-      <div class="container">
-        <div class="card shadow custom-bg my-4 px-3 px-md-5 py-4">
-          <h2 class="mb-4">Cake Enquiry Form</h2>
-          <form>
-            <div class="row mb-3">
-              <div class="col-md-6 mb-3 mb-md-0">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="First name" required />
-              </div>
-              <div class="col-md-6">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Last name" required />
-              </div>
+          <div class="col-lg-6 d-flex justify-content-lg-end">
+            <div class="card w-100 max-width-100 shadow custom-bg px-3 px-sm-4 pt-4 pb-4 ">
+              <h2 class="mb-4">Bakes Enquiry Form</h2>
+              <form>
+                <div class="row mb-3">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First name" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last name" required />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email address" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Phone number" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="helpText" class="form-label">How can we help?</label>
+                  <textarea class="form-control" id="helpText" rows="4" placeholder="Tell us about the cake you need..."></textarea>
+                </div>
+
+                <div class="mb-3">
+                  <label for="formFile" class="form-label">Upload inspiration images</label>
+                  <input class="form-control" type="file" id="formFile" multiple />
+                </div>
+
+                <button type="submit" class="btn btn-gold">Submit</button>
+              </form>
             </div>
-      
-            <div class="mb-3">
-              <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="Email address" required />
-            </div>
-      
-            <div class="mb-3">
-              <label for="phone" class="form-label">Phone Number</label>
-              <input type="tel" class="form-control" id="phone" placeholder="Phone number" />
-            </div>
-      
-            <div class="mb-3">
-              <label for="helpText" class="form-label">How can we help?</label>
-              <textarea class="form-control" id="helpText" rows="4" placeholder="Tell us about the cake you need..."></textarea>
-            </div>
-      
-            <div class="mb-3">
-              <label for="formFile" class="form-label">Upload inspiration images</label>
-              <input class="form-control" type="file" id="formFile" multiple />
-            </div>
-      
-            <button type="submit" class="btn btn-gold">Submit</button>
-          </form>
+          </div>
+
+          <div class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center">
+            <img src="assets/images/butterflycake.jpg" alt="Inspiration Cake" class="img-fluid rounded shadow-sm" />
+          </div>
+
         </div>
       </div>
-      
+              
     </main>
 
     <footer>
