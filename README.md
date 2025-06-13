@@ -74,10 +74,11 @@ The website has largely taken accessability in mind to cater to as many people a
 - Used for all other text on the website. A cllean, professional font style that has great readability.
 
 
-# CSS validating using Offical Jigsaw validator
+# CSS validating using Official Jigsaw validator
 
 CSS ran through Jigsaw validator shows no errors found in the code.
-(assets/readme/css-validator.png)
+![CSS validation passed](assets/readme/css-validator.png)
+
 
 
 
