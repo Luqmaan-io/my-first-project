@@ -37,8 +37,12 @@ The website has largely taken accessability in mind to cater to as many people a
 1. I want to know what it is that the business makes.
     So that I can know whether they can cater to what I need.
 
+![screenshot of mobile screen showing a card on the home screen that explains what the business does](assets/readme/mobile-view.png)
+
 2. I want to be able to find Saira's treats' social media easily.
     So that I can keep up to date and see more of their products.
+
+![screenhot of enquiry form](assets/readme/enquiry-form.png)
 
 3. I want to be able to make an enquiry.
     So that I can easily ask for a custom cake or treat.
@@ -74,10 +78,22 @@ The website has largely taken accessability in mind to cater to as many people a
 - Used for all other text on the website. A cllean, professional font style that has great readability.
 
 
-# CSS validating using Official Jigsaw validator
+# CSS validated using Official Jigsaw validator
 
 CSS ran through Jigsaw validator shows no errors found in the code.
 ![CSS validation passed](assets/readme/css-validator.png)
+
+# HTML validated using W3C validator
+
+index.html shows no errors
+![HTML validation passed](assets/readme/home-page.png)
+
+occasions.html shows no errors
+![HTML validation passed](assets/readme/occasions-page.png)
+
+enquiries.html shows no errors
+![HTML validation passed](assets/readme/enquiries-page.png)
+
 
 
 
