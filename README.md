@@ -95,6 +95,64 @@ enquiries.html shows no errors
 ![HTML validation passed](assets/readme/enquiries-page.png)
 
 
+#  Future Developments
 
+As the Saira's Treats website continues to grow, several exciting features are planned to enhance the user experience and showcase products more effectively:
+
+1. Gallery Page
+   A dedicated gallery page where customers can browse a visually rich collection of past creations — including cakes, cupcakes, brownies, and event-specific treats. This will help showcase the variety and quality of products Saira offers.
+
+2. Pricing Guide
+   A clear, easy-to-navigate pricing section outlining starting prices for custom orders such as birthday cakes, wedding treats, and dessert boxes. This will improve transparency and help users plan their budget before making enquiries.
+
+3. Customer Reviews Section 
+   A testimonials or reviews section where satisfied customers can share feedback and photos of their orders. This will help build trust with new visitors and add credibility to Saira’s growing reputation.
+
+
+
+These features aim to improve both customer convenience and business operations, making the website a more powerful tool for showcasing and selling Saira's delicious creations.
+
+
+# Technologies used
+
+### Visual Studio Code (VSC)
+The website was developed using Visual Studio Code, a source-code editor made by Microsoft.
+https://code.visualstudio.com/
+
+### Bootstrap
+Bootstrap was used for responsive layout, enquiry form, and navbar.
+https://getbootstrap.com/
+
+### Google Fonts
+Google Fonts was used to add custom typography to the site.
+https://fonts.google.com/
+
+### Font Awesome
+Font Awesome provided scalable vector icons used across the site.
+https://fontawesome.com/
+
+### favicon.io
+Favicon.io was used to generate the site’s favicon in multiple formats.
+https://favicon.io/
+
+
+# Acknowledgments
+Len Johnson - Tutor during my time at The Code Institue, providing support and assistance when called on.
+ChatGPT - Brainstorming and assisting with debugging.
+VSS - Code editior used during the evelopment of this project.
+
+
+# Deployment Using GitHub Pages
+
+To deploy this website using GitHub Pages:
+
+1. Push your project to a public GitHub repository.
+2. Go to the repository on GitHub.
+3. Click on the "Settings" tab.
+4. In the left-hand sidebar, select "Pages".
+5. Under Source, click the dropdown menu labeled None and select Main Branch (or master depending on your branch name).
+6. Click "Save".
+
+GitHub will publish the site at: https://luqmaan-io.github.io/my-first-project/
 
 
