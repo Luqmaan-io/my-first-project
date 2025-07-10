@@ -94,6 +94,33 @@ occasions.html shows no errors
 enquiries.html shows no errors
 ![HTML validation passed](assets/readme/enquiries-page.png)
 
+# Website responsiveness
+
+My website is fully responsive, adjusting seamlessly to different screen sizes catering for all users.
+
+### Mobile phone screen
+![Mobile screen](assets/readme/mobile.png)
+
+### Tablet screen
+![Tablet screen](assets/readme/tablet.png)
+
+### Laptop screen
+![Laptop screen](assets/readme/laptop.png)
+
+### Desktop screen
+![Desktop screen](assets/readme/desktop.png)
+
+
+# ✅ Functionality Testing
+
+| Feature              | Description                         | Tested (Yes/No) | Pass/Fail | Notes                                          |
+|----------------------|-------------------------------------|------------------|-----------|------------------------------------------------|
+| Navigation Bar       | All links navigate correctly        | Yes              | ✅ Pass   | All links redirect as expected                 |
+| Image Alt Text       | All images have alt attributes      | Yes              | ✅ Pass   | Checked using browser dev tools                |
+| Submit Form Button   | Submits data to server              | No               | ❌ Fail   | Submit not wired yet                           |
+| Responsive Layout    | Displays well on mobile & desktop   | Yes              | ✅ Pass   | Tested using Chrome device toolbar             |
+| Footer Social Media Icons | Open social media links in new tabs | Yes              | ✅ Pass   | Verified they open in separate windows         |
+
 
 #  Future Developments
 
